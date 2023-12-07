@@ -22,9 +22,3 @@ export function merge(collection1: number[], collection2: number[]): number[] {
   
     return mergedArray;
   }
-
-const array1 = [1, 2, 3];
-const array2 = [4, 5, 6, 7];
-const mergedArray = merge(array1, array2);
-
-console.log(mergedArray); 

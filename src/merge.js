@@ -25,7 +25,3 @@ function merge(collection1, collection2) {
     return mergedArray;
 }
 exports.merge = merge;
-var array1 = [1, 2, 3];
-var array2 = [4, 5, 6, 7];
-var mergedArray = merge(array1, array2);
-console.log(mergedArray);
